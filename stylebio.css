@@ -1,3 +1,6 @@
+body {
+  margin-left: 160px;
+}
 header h1 {
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@ header h1 {
     height: 100px;
     color: #fff;
     padding: 8px;
-    padding-bottom: 45px; /*h*/
+    padding-bottom: 50px; /*h*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,6 +29,7 @@ header h1 {
     right: 0;
     bottom: 25px; /*h/2*/
     height: 50px; /*h*/
+    width: 80px;
     background: radial-gradient(closest-side, #fff, #fff 50%, transparent 50%);
     /*or farthest-side*/
     background-size: 50px 50px; /*h h*/
@@ -51,6 +55,7 @@ header h1 {
   header.animatedWave:after {
     left: -50px; /*-h*/
     animation: animateWave 0.2s linear infinite;
+    width:105%;
   }
   
   @keyframes animateWave {
